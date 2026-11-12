@@ -1,0 +1,18 @@
+{
+  "name": "contoso-company-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Contoso company profile website: static pages built with EJS and deployed to GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ejs": "3.1.6"
+  }
+}

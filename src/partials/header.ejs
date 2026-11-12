@@ -1,0 +1,24 @@
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span><%= site.company.descriptor %> &middot; Jakarta &middot; Surabaya &middot; Singapore</span>
+    <a href="mailto:<%= site.company.serviceDesk %>">24/7 Service Desk: <%= site.company.serviceDesk %></a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="" width="40" height="40">
+      <span class="brand-text"><strong><%= site.company.name %></strong><small>Technology Solutions</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        <% site.nav.forEach(function (item) { %>
+        <li><a href="<%= item.href %>"<% if (item.page === page) { %> aria-current="page"<% } %>><%= item.label %></a></li>
+        <% }) %>
+      </ul>
+      <a class="btn btn-primary btn-sm nav-cta" href="contact.html">Talk to an expert</a>
+    </nav>
+  </div>
+</header>
+<main id="main">

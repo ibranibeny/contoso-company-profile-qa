@@ -1,0 +1,171 @@
+<%- include('../partials/head', { title: 'IT Solution Provider', description: site.company.tagline }) %>
+<%- include('../partials/header') %>
+<section class="hero">
+  <img class="hero-img" src="<%= site.hero.image %>" alt="<%= site.hero.imageAlt %>" width="1536" height="864" fetchpriority="high">
+  <div class="container hero-content">
+    <p class="eyebrow eyebrow-light"><%= site.hero.eyebrow %></p>
+    <h1><%= site.hero.title %></h1>
+    <p class="lead"><%= site.hero.lead %></p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="solutions.html">Explore our solutions</a>
+      <a class="btn btn-outline-light" href="contact.html">Talk to an expert</a>
+    </div>
+    <ul class="hero-highlights">
+      <% site.hero.highlights.forEach(function (text) { %>
+      <li><%- include('../partials/icon', { name: 'check' }) %><span><%= text %></span></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="clients" aria-label="Clients">
+  <div class="container clients-inner">
+    <p>Trusted by banks, manufacturers and public agencies</p>
+    <ul>
+      <% site.clients.forEach(function (client) { %>
+      <li><%= client %></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Solutions</p>
+      <h2>Everything your IT needs, from one accountable partner</h2>
+      <p>Six practices that work as one team. We design it, build it, secure it and run it.</p>
+    </div>
+    <div class="grid grid-3">
+      <% site.solutions.forEach(function (s) { %>
+      <article class="card solution-card">
+        <span class="icon-badge"><%- include('../partials/icon', { name: s.icon }) %></span>
+        <h3><%= s.name %></h3>
+        <p><%= s.summary %></p>
+        <a class="card-link" href="solutions.html#<%= s.id %>">Learn more <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="stats-band" aria-label="Contoso in numbers">
+  <div class="container stats-grid">
+    <% site.stats.forEach(function (stat) { %>
+    <div class="stat"><strong><%= stat.value %></strong><span><%= stat.label %></span></div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split split-media">
+    <figure class="media-frame">
+      <img src="<%= site.why.image %>" alt="<%= site.why.imageAlt %>" width="1200" height="675" loading="lazy">
+      <figcaption><%= site.why.caption %></figcaption>
+    </figure>
+    <div>
+      <p class="eyebrow">Why Contoso</p>
+      <h2 class="h2"><%= site.why.title %></h2>
+      <p class="muted"><%= site.why.text %></p>
+      <ul class="feature-list">
+        <% site.why.points.forEach(function (point) { %>
+        <li>
+          <span class="tick"><%- include('../partials/icon', { name: 'check' }) %></span>
+          <div><strong><%= point.title %></strong><p><%= point.text %></p></div>
+        </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">How we deliver</p>
+      <h2>A proven path from assessment to operations</h2>
+    </div>
+    <ol class="process">
+      <% site.process.forEach(function (step, i) { %>
+      <li>
+        <span class="step-no"><%= String(i + 1).padStart(2, '0') %></span>
+        <h3><%= step.name %></h3>
+        <p><%= step.text %></p>
+      </li>
+      <% }) %>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Client results</p>
+      <h2>Outcomes our clients can measure</h2>
+    </div>
+    <div class="grid grid-3">
+      <% site.caseStudies.forEach(function (c) { %>
+      <article class="card case-card">
+        <p class="case-meta"><%= c.industry %> &middot; <%= c.client %></p>
+        <h3><%= c.title %></h3>
+        <p class="metric"><strong><%= c.metric %></strong><span><%= c.metricLabel %></span></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container narrow">
+    <figure class="quote">
+      <blockquote><p>&ldquo;<%= site.testimonial.quote %>&rdquo;</p></blockquote>
+      <figcaption><strong><%= site.testimonial.name %></strong> &middot; <%= site.testimonial.role %></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div class="section-head">
+      <p class="eyebrow">Industries</p>
+      <h2>Built for regulated, always-on organisations</h2>
+      <p>We understand the compliance, availability and security demands of the sectors we serve.</p>
+    </div>
+    <ul class="chips">
+      <% site.industries.forEach(function (name) { %>
+      <li><%= name %></li>
+      <% }) %>
+    </ul>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Newsroom</p>
+      <h2>Latest from Contoso</h2>
+    </div>
+    <div class="grid grid-3">
+      <% news.slice(0, 3).forEach(function (item) { %>
+      <article class="card news-card">
+        <span class="tag"><%= item.tag %></span>
+        <h3><%= item.title %></h3>
+        <p><%= item.summary %></p>
+        <time datetime="<%= item.date %>"><%= item.date %></time>
+      </article>
+      <% }) %>
+    </div>
+    <p class="more"><a href="news.html">All news <span aria-hidden="true">&rarr;</span></a></p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Ready to modernise your IT?</h2>
+      <p>Book a free 60-minute assessment with a Contoso solution architect.</p>
+    </div>
+    <a class="btn btn-light" href="contact.html">Book an assessment</a>
+  </div>
+</section>
+<%- include('../partials/footer') %>

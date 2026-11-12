@@ -1,0 +1,10 @@
+<section class="page-hero<% if (locals.image) { %> page-hero-media<% } %>">
+  <% if (locals.image) { %>
+  <img class="page-hero-img" src="<%= image %>" alt="<%= imageAlt %>" width="1536" height="864">
+  <% } %>
+  <div class="container page-hero-content">
+    <p class="eyebrow eyebrow-light"><%= eyebrow %></p>
+    <h1><%= heading %></h1>
+    <p class="lead"><%= lead %></p>
+  </div>
+</section>

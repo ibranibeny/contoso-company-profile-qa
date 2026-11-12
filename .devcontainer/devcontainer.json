@@ -1,0 +1,17 @@
+{
+  "name": "Contoso company profile",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "npm install --no-audit --no-fund",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "Contoso site preview", "onAutoForward": "notify" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.copilot-chat", "github.vscode-github-actions"]
+    }
+  }
+}

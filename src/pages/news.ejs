@@ -1,0 +1,25 @@
+<%- include('../partials/head', { title: 'Newsroom', description: 'News and announcements from ' + site.company.legalName }) %>
+<%- include('../partials/header') %>
+<%- include('../partials/page-hero', { eyebrow: 'Newsroom', heading: 'News and announcements', lead: 'Company updates, client stories and what our engineers are learning.' }) %>
+
+<section class="section">
+  <div class="container narrow">
+    <form class="search card" role="search" action="news.html" method="get">
+      <label for="q">Search the newsroom</label>
+      <input id="q" name="q" type="search" placeholder="Try: security, AI, graduate">
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <p id="search-summary" class="search-summary" aria-live="polite"></p>
+    <div class="news-list">
+      <% news.forEach(function (item) { %>
+      <article class="news-item" data-news-item>
+        <span class="tag"><%= item.tag %></span>
+        <h2><%= item.title %></h2>
+        <p><%= item.summary %></p>
+        <time datetime="<%= item.date %>"><%= item.date %></time>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<%- include('../partials/footer', { scripts: ['assets/js/news-search.js'] }) %>

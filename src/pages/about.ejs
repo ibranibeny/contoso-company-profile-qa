@@ -1,0 +1,123 @@
+<%- include('../partials/head', { title: 'About us', description: 'History, mission, leadership and offices of ' + site.company.legalName }) %>
+<%- include('../partials/header') %>
+<%- include('../partials/page-hero', { eyebrow: 'About Contoso', heading: 'Engineering trusted IT since ' + site.company.founded, lead: 'From a three-person studio in Jakarta to a regional IT solution provider with more than 1,200 engineers and consultants.', image: site.hero.image, imageAlt: site.hero.imageAlt }) %>
+
+<section class="section">
+  <div class="container split split-media">
+    <div>
+      <p class="eyebrow">Who we are</p>
+      <h2 class="h2">An IT solution provider built for the long term</h2>
+      <p class="muted"><%= site.overview.text %></p>
+      <div class="mv-grid">
+        <article class="card">
+          <h3>Our mission</h3>
+          <p><%= site.mission %></p>
+        </article>
+        <article class="card">
+          <h3>Our vision</h3>
+          <p><%= site.vision %></p>
+        </article>
+      </div>
+    </div>
+    <figure class="media-frame">
+      <img src="<%= site.overview.image %>" alt="<%= site.overview.imageAlt %>" width="1200" height="675" loading="lazy">
+      <figcaption>Consultants at work in Contoso Tower, Jakarta</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="stats-band" aria-label="Contoso in numbers">
+  <div class="container stats-grid">
+    <% site.stats.forEach(function (stat) { %>
+    <div class="stat"><strong><%= stat.value %></strong><span><%= stat.label %></span></div>
+    <% }) %>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">What guides us</p>
+      <h2>Our values</h2>
+    </div>
+    <div class="grid grid-4">
+      <% site.values.forEach(function (value) { %>
+      <article class="card value-card">
+        <h3><%= value.name %></h3>
+        <p><%= value.text %></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container split">
+    <div class="section-head">
+      <p class="eyebrow">Our story</p>
+      <h2>Milestones</h2>
+      <p>Twenty-eight years of building, securing and running IT with our clients.</p>
+    </div>
+    <ol class="timeline">
+      <% site.milestones.forEach(function (m) { %>
+      <li><strong><%= m.year %></strong><span><%= m.text %></span></li>
+      <% }) %>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Leadership</p>
+      <h2>The team accountable for your outcomes</h2>
+    </div>
+    <div class="people">
+      <% site.leaders.forEach(function (person) { %>
+      <article class="person">
+        <span class="avatar" aria-hidden="true"><%= person.initials %></span>
+        <h3><%= person.name %></h3>
+        <p><%= person.role %></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Certifications</p>
+      <h2>Independently audited, every year</h2>
+    </div>
+    <div class="grid grid-4">
+      <% site.certifications.forEach(function (c) { %>
+      <article class="card cert-card">
+        <span class="icon-badge"><%- include('../partials/icon', { name: 'shield' }) %></span>
+        <h3><%= c.name %></h3>
+        <p><%= c.text %></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Where we are</p>
+      <h2>Offices</h2>
+    </div>
+    <div class="grid grid-3">
+      <% site.offices.forEach(function (office) { %>
+      <article class="card office-card">
+        <span class="icon-badge"><%- include('../partials/icon', { name: 'pin' }) %></span>
+        <h3><%= office.city %></h3>
+        <p class="tag"><%= office.type %></p>
+        <p><%= office.address %></p>
+      </article>
+      <% }) %>
+    </div>
+  </div>
+</section>
+<%- include('../partials/footer') %>

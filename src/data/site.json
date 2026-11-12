@@ -1,0 +1,160 @@
+{
+  "company": {
+    "name": "Contoso",
+    "legalName": "Contoso Technology Solutions Ltd.",
+    "descriptor": "IT Solution Provider",
+    "tagline": "End-to-end IT solutions that keep your business running, secure and ready for what comes next.",
+    "founded": 1998,
+    "hq": "Jakarta, Indonesia",
+    "email": "hello@contoso.com",
+    "serviceDesk": "servicedesk@contoso.com",
+    "address": "Contoso Tower, 18th floor, Jakarta 10220, Indonesia"
+  },
+  "nav": [
+    { "page": "index", "href": "index.html", "label": "Home" },
+    { "page": "solutions", "href": "solutions.html", "label": "Solutions" },
+    { "page": "about", "href": "about.html", "label": "About us" },
+    { "page": "news", "href": "news.html", "label": "Newsroom" },
+    { "page": "contact", "href": "contact.html", "label": "Contact" }
+  ],
+  "hero": {
+    "eyebrow": "IT Solution Provider since 1998",
+    "title": "Technology that runs your business. Expertise that moves it forward.",
+    "lead": "Contoso designs, secures and operates the IT that banks, public agencies and growing enterprises depend on, from the data centre to the cloud, around the clock.",
+    "image": "assets/img/contoso-hq.webp",
+    "imageAlt": "Contoso headquarters: a modern glass office tower at dusk",
+    "highlights": ["ISO/IEC 27001 certified operations", "24/7 network and security operations centre", "99.95% availability SLA"]
+  },
+  "clients": ["Woodgrove Bank", "Fabrikam", "Northwind Traders", "Tailspin Toys", "Litware", "Adventure Works"],
+  "stats": [
+    { "value": "28", "label": "years delivering IT solutions" },
+    { "value": "1,200+", "label": "certified engineers and consultants" },
+    { "value": "350+", "label": "enterprise and public-sector clients" },
+    { "value": "24/7", "label": "monitoring from our NOC and SOC" }
+  ],
+  "solutions": [
+    {
+      "id": "managed-services",
+      "icon": "managed",
+      "name": "Managed IT Services",
+      "summary": "We run your infrastructure, end-user services and applications with clear SLAs and a single service desk.",
+      "capabilities": ["24/7 monitoring and incident response", "Multilingual service desk", "Patch and vulnerability management", "Monthly service reviews and reporting"],
+      "outcome": "Up to 40% less unplanned downtime"
+    },
+    {
+      "id": "cloud",
+      "icon": "cloud",
+      "name": "Cloud & Infrastructure",
+      "summary": "Landing zones, hybrid networks and data-centre modernisation, designed for security and cost control.",
+      "capabilities": ["Cloud migration and modernisation", "Hybrid networking and SD-WAN", "Kubernetes and container platforms", "FinOps and cost governance"],
+      "outcome": "Typical 25-35% lower infrastructure cost"
+    },
+    {
+      "id": "cybersecurity",
+      "icon": "shield",
+      "name": "Cybersecurity",
+      "summary": "Security built in, not bolted on: identity, secure software delivery and a 24/7 security operations centre.",
+      "capabilities": ["Managed detection and response", "Identity and zero trust", "DevSecOps and secure SDLC", "Compliance readiness (ISO, PCI DSS)"],
+      "outcome": "Threats contained in minutes, not days"
+    },
+    {
+      "id": "data-ai",
+      "icon": "data",
+      "name": "Data & AI",
+      "summary": "Governed data platforms, analytics and AI agents that move from pilot to production safely.",
+      "capabilities": ["Data platforms and analytics", "AI agents and copilots", "MLOps and model monitoring", "Responsible AI reviews"],
+      "outcome": "Decisions backed by trusted data"
+    },
+    {
+      "id": "applications",
+      "icon": "code",
+      "name": "Application Development",
+      "summary": "Web, mobile and API platforms engineered with an agent-native SDLC and shipped continuously.",
+      "capabilities": ["Product discovery and UX", "Web and mobile engineering", "API and integration platforms", "Application modernisation"],
+      "outcome": "Releases every week instead of every quarter"
+    },
+    {
+      "id": "consulting",
+      "icon": "compass",
+      "name": "IT Consulting & Advisory",
+      "summary": "Independent advice on IT strategy, architecture, sourcing and risk, from assessment to roadmap.",
+      "capabilities": ["IT strategy and roadmaps", "Enterprise architecture", "IT risk and governance", "Vendor and sourcing advisory"],
+      "outcome": "A roadmap your board can approve"
+    }
+  ],
+  "why": {
+    "title": "One partner accountable for your IT, day and night",
+    "text": "Our network and security operations centre in Jakarta watches over client systems around the clock. When something needs attention, the engineers who designed your platform are the ones who fix it.",
+    "image": "assets/img/contoso-noc.webp",
+    "imageAlt": "Engineers monitoring dashboards in the Contoso network and security operations centre",
+    "caption": "Contoso NOC and SOC, Jakarta",
+    "points": [
+      { "title": "Certified people", "text": "Over 3,000 active cloud, security and networking certifications across our teams." },
+      { "title": "Measurable service levels", "text": "Every engagement has SLAs, monthly reporting and an executive sponsor." },
+      { "title": "Local presence, regional scale", "text": "Teams in Jakarta, Surabaya and Singapore serving clients in nine countries." }
+    ]
+  },
+  "process": [
+    { "name": "Assess", "text": "We review your current IT, risks and costs, and agree measurable goals." },
+    { "name": "Design", "text": "Architects design the target platform with security and operations built in." },
+    { "name": "Implement", "text": "Small, frequent releases with automated testing and security checks." },
+    { "name": "Operate", "text": "24/7 monitoring, service desk and continuous improvement under clear SLAs." }
+  ],
+  "caseStudies": [
+    { "client": "Woodgrove Bank", "industry": "Financial services", "title": "Core banking workloads moved to a hybrid cloud in nine months", "metric": "35%", "metricLabel": "lower infrastructure cost" },
+    { "client": "Fabrikam Manufacturing", "industry": "Manufacturing", "title": "Twelve plants monitored 24/7 by the Contoso NOC", "metric": "40%", "metricLabel": "less unplanned downtime" },
+    { "client": "City of Fabrikam", "industry": "Public sector", "title": "Citizen services portal built, secured and run by Contoso", "metric": "2M", "metricLabel": "residents served online" }
+  ],
+  "testimonial": {
+    "quote": "Contoso took over our infrastructure and security operations in one quarter. Our teams now spend their time on new products instead of firefighting.",
+    "name": "Grace Lim",
+    "role": "Chief Information Officer, Woodgrove Bank"
+  },
+  "industries": ["Banking and financial services", "Government and public sector", "Manufacturing and energy", "Retail and consumer goods", "Healthcare", "Education"],
+  "overview": {
+    "image": "assets/img/contoso-team.webp",
+    "imageAlt": "Contoso consultants planning a project together in a bright office",
+    "text": "Contoso Technology Solutions is an IT solution provider headquartered in Jakarta. We combine consulting, engineering and managed services so clients have one partner from strategy to day-to-day operations."
+  },
+  "mission": "Help organisations run digital services that are secure, reliable and a pleasure to use.",
+  "vision": "To be the most trusted IT partner in Southeast Asia.",
+  "values": [
+    { "name": "Integrity first", "text": "We say what we will do, do what we say, and are open about risks." },
+    { "name": "Customers at the centre", "text": "Every decision starts with the people who use the services we run." },
+    { "name": "Craft and curiosity", "text": "We keep learning, automate the toil and take pride in quality work." },
+    { "name": "Sustainable by design", "text": "Efficient architectures, lower emissions and long-term partnerships." }
+  ],
+  "milestones": [
+    { "year": "1998", "text": "Founded in Jakarta as a three-person systems integration studio." },
+    { "year": "2006", "text": "Opened the Singapore office and signed the first regional banking client." },
+    { "year": "2014", "text": "Launched 24/7 managed services and the security operations centre." },
+    { "year": "2019", "text": "Became a cloud-first solution provider with 500 engineers." },
+    { "year": "2023", "text": "Opened the Data & AI practice in Surabaya." },
+    { "year": "2026", "text": "Adopted an agent-native engineering system across every delivery team." }
+  ],
+  "leaders": [
+    { "name": "Ayu Pratama", "role": "President Director & CEO", "initials": "AP" },
+    { "name": "Daniel Wijaya", "role": "Chief Technology Officer", "initials": "DW" },
+    { "name": "Maria Santoso", "role": "Chief Financial Officer", "initials": "MS" },
+    { "name": "Raka Nugroho", "role": "Chief Information Security Officer", "initials": "RN" },
+    { "name": "Lina Hartono", "role": "Chief People Officer", "initials": "LH" },
+    { "name": "Michael Tan", "role": "Managing Director, Singapore", "initials": "MT" }
+  ],
+  "certifications": [
+    { "name": "ISO/IEC 27001", "text": "Information security management" },
+    { "name": "ISO/IEC 20000-1", "text": "IT service management" },
+    { "name": "ISO 9001", "text": "Quality management" },
+    { "name": "SOC 2 Type II", "text": "Independent controls report for managed services" }
+  ],
+  "offices": [
+    { "city": "Jakarta", "type": "Headquarters and NOC/SOC", "address": "Contoso Tower, 18th floor, Jakarta 10220" },
+    { "city": "Surabaya", "type": "Delivery centre and Data & AI studio", "address": "Contoso Hub, Surabaya 60271" },
+    { "city": "Singapore", "type": "Regional office", "address": "1 Contoso Quay, Singapore 049315" }
+  ],
+  "contacts": [
+    { "title": "New projects and sales", "text": "Talk to a solution architect about your plans.", "email": "hello@contoso.com" },
+    { "title": "24/7 service desk", "text": "Existing managed-services clients, any time.", "email": "servicedesk@contoso.com" },
+    { "title": "Media and partnerships", "text": "Press enquiries and partner programmes.", "email": "media@contoso.com" }
+  ],
+  "topics": ["Managed IT services", "Cloud & infrastructure", "Cybersecurity", "Data & AI", "Application development", "IT consulting", "Something else"]
+}

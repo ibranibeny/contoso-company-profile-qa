@@ -1,0 +1,76 @@
+<%- include('../partials/head', { title: 'Solutions', description: 'Managed IT services, cloud and infrastructure, cybersecurity, data and AI, application development and IT consulting from Contoso.' }) %>
+<%- include('../partials/header') %>
+<%- include('../partials/page-hero', { eyebrow: 'Solutions', heading: 'IT solutions that cover the whole lifecycle', lead: 'Six practices, one delivery model and a single team that stays accountable long after go-live.', image: 'assets/img/contoso-datacenter.webp', imageAlt: 'Server racks in a modern data centre operated by Contoso' }) %>
+
+<section class="section">
+  <div class="container solution-list">
+    <% site.solutions.forEach(function (s, i) { %>
+    <article class="solution-row" id="<%= s.id %>">
+      <div class="solution-intro">
+        <span class="icon-badge icon-badge-lg"><%- include('../partials/icon', { name: s.icon }) %></span>
+        <p class="eyebrow">0<%= i + 1 %></p>
+        <h2><%= s.name %></h2>
+        <p class="muted"><%= s.summary %></p>
+        <p class="outcome"><%- include('../partials/icon', { name: 'check' }) %><span><%= s.outcome %></span></p>
+      </div>
+      <ul class="capability-list">
+        <% s.capabilities.forEach(function (cap) { %>
+        <li><%= cap %></li>
+        <% }) %>
+      </ul>
+    </article>
+    <% }) %>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Engagement models</p>
+      <h2>Work with us the way that suits you</h2>
+    </div>
+    <div class="grid grid-3">
+      <article class="card">
+        <h3>Projects</h3>
+        <p>Fixed-scope delivery with milestones, from a cloud migration to a new customer portal.</p>
+      </article>
+      <article class="card">
+        <h3>Managed services</h3>
+        <p>We operate your platforms under SLAs with 24/7 monitoring and a single service desk.</p>
+      </article>
+      <article class="card">
+        <h3>Advisory retainers</h3>
+        <p>Senior architects and security advisers on call for strategy, reviews and audits.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">How we deliver</p>
+      <h2>Assess, design, implement, operate</h2>
+    </div>
+    <ol class="process">
+      <% site.process.forEach(function (step, i) { %>
+      <li>
+        <span class="step-no"><%= String(i + 1).padStart(2, '0') %></span>
+        <h3><%= step.name %></h3>
+        <p><%= step.text %></p>
+      </li>
+      <% }) %>
+    </ol>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Not sure where to start?</h2>
+      <p>Our architects run a free assessment and give you a prioritised roadmap.</p>
+    </div>
+    <a class="btn btn-light" href="contact.html">Book an assessment</a>
+  </div>
+</section>
+<%- include('../partials/footer') %>

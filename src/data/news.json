@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-03",
+    "tag": "Engineering",
+    "title": "Contoso adopts an agent-native engineering system",
+    "summary": "Every delivery team now plans, builds, reviews and secures software with AI agents working alongside developers on GitHub."
+  },
+  {
+    "date": "2026-09-18",
+    "tag": "Security",
+    "title": "Security operations centre completes its annual ISO/IEC 27001 audit",
+    "summary": "The 24/7 security operations centre in Jakarta passed its yearly surveillance audit with no major findings."
+  },
+  {
+    "date": "2026-07-22",
+    "tag": "Data & AI",
+    "title": "New Data & AI studio opens in Surabaya",
+    "summary": "Forty data engineers and applied scientists join the new studio to help clients put AI agents into production."
+  },
+  {
+    "date": "2026-05-09",
+    "tag": "People",
+    "title": "Graduate programme welcomes its largest intake yet",
+    "summary": "120 graduates start a twelve-month programme that rotates through cloud, data, security and product teams."
+  },
+  {
+    "date": "2026-02-14",
+    "tag": "Public sector",
+    "title": "Contoso and the City of Fabrikam pilot a citizen services app",
+    "summary": "Residents can now request permits and track their status online, with accessibility tested by real users."
+  }
+]
