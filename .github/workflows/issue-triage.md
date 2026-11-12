@@ -11,6 +11,7 @@ on:
 engine: copilot
 timeout-minutes: 10
 permissions:
+  copilot-requests: write
   contents: read
   issues: read
 network:

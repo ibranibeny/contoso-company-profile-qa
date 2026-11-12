@@ -1,5 +1,5 @@
-# gh-aw-metadata: {"schema_version":"v4","frontmatter_hash":"a8cbb5ad848f0e8322c13c0818f82776032fa049d27c659f547785bbfc34b859","body_hash":"03ab23c63fa0a1ad80c1f9f06fb68bc62866b3e15ff6a4b304406ea2dd908baa","compiler_version":"v1.2.2","strict":true,"agent_id":"copilot","engine_versions":{"copilot":"1.0.103"}}
-# gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","GH_AW_DEFAULT_OTLP_ENDPOINT","GH_AW_DEFAULT_OTLP_HEADERS","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"3d3c42e5aac5ba805825da76410c181273ba90b1","version":"v7.0.1"},{"repo":"actions/download-artifact","sha":"9000827ccba6bdab643e8b6fd33ac0654aef8333","version":"v8.0.2"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9.0.0"},{"repo":"actions/setup-node","sha":"949feb2413d6458794dcd2491c4babbbce0c15c1","version":"v7.1.0"},{"repo":"actions/upload-artifact","sha":"cf430e030ddbb5b0abf93d22962f4752f3646cd9","version":"v7.0.2"},{"repo":"github/gh-aw-actions/setup","sha":"v1.2.2","version":"v1.2.2"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.29.11","digest":"sha256:8774a73c351395b41d2ad0af4ddb4689007c67de3cd08bd9f43bb8a0e300690e","pinned_image":"ghcr.io/github/gh-aw-firewall/agent:0.29.11@sha256:8774a73c351395b41d2ad0af4ddb4689007c67de3cd08bd9f43bb8a0e300690e"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.29.11","digest":"sha256:88d2d0e315a504d93fd4fb8847fd0f6b7f4469f41a6fc6047b3dc9654c56ab2c","pinned_image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.29.11@sha256:88d2d0e315a504d93fd4fb8847fd0f6b7f4469f41a6fc6047b3dc9654c56ab2c"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.29.11","digest":"sha256:861739ecf924dd2db5e5fb652db2ad82aaafd1615623297ddabc8f41a36b2847","pinned_image":"ghcr.io/github/gh-aw-firewall/squid:0.29.11@sha256:861739ecf924dd2db5e5fb652db2ad82aaafd1615623297ddabc8f41a36b2847"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.5.6","digest":"sha256:342cd624e1f179d91be2de7a146fc4f387092e62e6c8a47506d7932e113d2311","pinned_image":"ghcr.io/github/gh-aw-mcpg:v0.5.6@sha256:342cd624e1f179d91be2de7a146fc4f387092e62e6c8a47506d7932e113d2311"},{"image":"ghcr.io/github/gh-aw-node","digest":"sha256:8735428c2d4e602f90781ba0c571c400e8ff93c7ee1508a75d71f87e34e415cc","pinned_image":"ghcr.io/github/gh-aw-node@sha256:8735428c2d4e602f90781ba0c571c400e8ff93c7ee1508a75d71f87e34e415cc"},{"image":"ghcr.io/github/github-mcp-server:v2.1.0","digest":"sha256:f6056fc10bfffcc8c81a6417a2e9ca12808647e8dd6049642a4feaadee0e0f8a","pinned_image":"ghcr.io/github/github-mcp-server:v2.1.0@sha256:f6056fc10bfffcc8c81a6417a2e9ca12808647e8dd6049642a4feaadee0e0f8a"}],"mcp_servers":[{"name":"github","tools":["get_label","issue_read","list_issue_types","list_issues","list_label","search_issues"]},{"name":"safeoutputs","tools":["add_comment","add_labels","noop","report_incomplete","report_missing_data","report_missing_tool"]}],"threat_detection":{"mode":"enabled"},"admission":false,"agent_metadata":{}}
+# gh-aw-metadata: {"schema_version":"v4","frontmatter_hash":"8c740403c846771ca029971c1a8615133f6252c4f663fbe32f4fbe9f4c43436f","body_hash":"03ab23c63fa0a1ad80c1f9f06fb68bc62866b3e15ff6a4b304406ea2dd908baa","compiler_version":"v1.2.2","strict":true,"agent_id":"copilot","engine_versions":{"copilot":"1.0.103"}}
+# gh-aw-manifest: {"version":1,"secrets":["GH_AW_DEFAULT_OTLP_ENDPOINT","GH_AW_DEFAULT_OTLP_HEADERS","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"3d3c42e5aac5ba805825da76410c181273ba90b1","version":"v7.0.1"},{"repo":"actions/download-artifact","sha":"9000827ccba6bdab643e8b6fd33ac0654aef8333","version":"v8.0.2"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9.0.0"},{"repo":"actions/setup-node","sha":"949feb2413d6458794dcd2491c4babbbce0c15c1","version":"v7.1.0"},{"repo":"actions/upload-artifact","sha":"cf430e030ddbb5b0abf93d22962f4752f3646cd9","version":"v7.0.2"},{"repo":"github/gh-aw-actions/setup","sha":"v1.2.2","version":"v1.2.2"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.29.11","digest":"sha256:8774a73c351395b41d2ad0af4ddb4689007c67de3cd08bd9f43bb8a0e300690e","pinned_image":"ghcr.io/github/gh-aw-firewall/agent:0.29.11@sha256:8774a73c351395b41d2ad0af4ddb4689007c67de3cd08bd9f43bb8a0e300690e"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.29.11","digest":"sha256:88d2d0e315a504d93fd4fb8847fd0f6b7f4469f41a6fc6047b3dc9654c56ab2c","pinned_image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.29.11@sha256:88d2d0e315a504d93fd4fb8847fd0f6b7f4469f41a6fc6047b3dc9654c56ab2c"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.29.11","digest":"sha256:861739ecf924dd2db5e5fb652db2ad82aaafd1615623297ddabc8f41a36b2847","pinned_image":"ghcr.io/github/gh-aw-firewall/squid:0.29.11@sha256:861739ecf924dd2db5e5fb652db2ad82aaafd1615623297ddabc8f41a36b2847"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.5.6","digest":"sha256:342cd624e1f179d91be2de7a146fc4f387092e62e6c8a47506d7932e113d2311","pinned_image":"ghcr.io/github/gh-aw-mcpg:v0.5.6@sha256:342cd624e1f179d91be2de7a146fc4f387092e62e6c8a47506d7932e113d2311"},{"image":"ghcr.io/github/gh-aw-node","digest":"sha256:8735428c2d4e602f90781ba0c571c400e8ff93c7ee1508a75d71f87e34e415cc","pinned_image":"ghcr.io/github/gh-aw-node@sha256:8735428c2d4e602f90781ba0c571c400e8ff93c7ee1508a75d71f87e34e415cc"},{"image":"ghcr.io/github/github-mcp-server:v2.1.0","digest":"sha256:f6056fc10bfffcc8c81a6417a2e9ca12808647e8dd6049642a4feaadee0e0f8a","pinned_image":"ghcr.io/github/github-mcp-server:v2.1.0@sha256:f6056fc10bfffcc8c81a6417a2e9ca12808647e8dd6049642a4feaadee0e0f8a"}],"mcp_servers":[{"name":"github","tools":["get_label","issue_read","list_issue_types","list_issues","list_label","search_issues"]},{"name":"safeoutputs","tools":["add_comment","add_labels","noop","report_incomplete","report_missing_data","report_missing_tool"]}],"threat_detection":{"mode":"enabled"},"admission":false,"agent_metadata":{}}
 # This file was automatically generated by gh-aw (v1.2.2). DO NOT EDIT. To debug this workflow, load the skill at https://github.com/github/gh-aw/blob/main/debug.md
 #
 #    ___                   _   _
@@ -28,7 +28,6 @@
 # Intent: Help maintainers turn new issues into clearly scoped, actionable requests.
 #
 # Secrets used:
-#   - COPILOT_GITHUB_TOKEN
 #   - GH_AW_DEFAULT_OTLP_ENDPOINT
 #   - GH_AW_DEFAULT_OTLP_HEADERS
 #   - GH_AW_GITHUB_MCP_SERVER_TOKEN
@@ -105,7 +104,6 @@ jobs:
       lockdown_check_failed: ${{ steps.generate_aw_info.outputs.lockdown_check_failed == 'true' }}
       model: ${{ steps.generate_aw_info.outputs.model }}
       oauth_token_check_failed: ${{ steps.check-oauth-tokens.outputs.oauth_token_check_failed == 'true' }}
-      secret_verification_result: ${{ steps.validate-secret.outputs.verification_result }}
       setup-parent-span-id: ${{ steps.setup.outputs.parent-span-id || steps.setup.outputs.span-id }}
       setup-span-id: ${{ steps.setup.outputs.span-id }}
       setup-trace-id: ${{ steps.setup.outputs.trace-id }}
@@ -211,16 +209,10 @@ jobs:
           overwrite: true
           if-no-files-found: ignore
           retention-days: ${{ vars.GH_AW_DEFAULT_ARTIFACT_RETENTION_DAYS || '3' }}
-      - name: Validate COPILOT_GITHUB_TOKEN secret
-        id: validate-secret
-        run: bash "${RUNNER_TEMP}/gh-aw/actions/validate_multi_secret.sh" COPILOT_GITHUB_TOKEN 'GitHub Copilot CLI' https://github.github.com/gh-aw/reference/engines/#github-copilot-default
-        env:
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
       - name: Check for OAuth tokens
         id: check-oauth-tokens
         run: bash "${RUNNER_TEMP}/gh-aw/actions/check_oauth_tokens.sh"
         env:
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
           GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
           GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
       - name: Checkout .github and .agents folders
@@ -538,6 +530,7 @@ jobs:
     # Permissions for the agent job (workflow permissions default to none).
     permissions:
       contents: read
+      copilot-requests: write # Authenticate requests to the Copilot engine.
       issues: read # Read issues and comments for workflow context.
     cache-mode: read
     timeout-minutes: 60
@@ -1144,7 +1137,7 @@ jobs:
           AWF_REFLECT_ENABLED: 1
           COPILOT_AGENT_RUNNER_TYPE: STANDALONE
           COPILOT_DUMMY_BYOK: dummy-byok-key-for-offline-mode
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ github.token }}
           COPILOT_MODEL: ${{ vars.GH_AW_MODEL_AGENT_COPILOT || vars.GH_AW_DEFAULT_MODEL_COPILOT || 'auto' }}
           GH_AW_LLM_PROVIDER: github
           GH_AW_MAX_AI_CREDITS: ${{ vars.GH_AW_DEFAULT_MAX_AI_CREDITS || '1000' }}
@@ -1169,6 +1162,7 @@ jobs:
           GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
           GIT_COMMITTER_NAME: github-actions[bot]
           RUNNER_TEMP: ${{ runner.temp }}
+          S2STOKENS: true
           TRACEPARENT: ${{ env.GITHUB_AW_OTEL_TRACE_ID != '' && env.GITHUB_AW_OTEL_PARENT_SPAN_ID != '' && format('00-{0}-{1}-01', env.GITHUB_AW_OTEL_TRACE_ID, env.GITHUB_AW_OTEL_PARENT_SPAN_ID) || '' }}
       - name: Log GitHub rate limits at agent end
         if: always()
@@ -1231,8 +1225,7 @@ jobs:
             const { main } = require(path.join(actionsDir, 'redact_secrets.cjs'));
             await main();
         env:
-          GH_AW_SECRET_NAMES: 'COPILOT_GITHUB_TOKEN,GH_AW_GITHUB_MCP_SERVER_TOKEN,GH_AW_GITHUB_TOKEN,GITHUB_TOKEN'
-          SECRET_COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          GH_AW_SECRET_NAMES: 'GH_AW_GITHUB_MCP_SERVER_TOKEN,GH_AW_GITHUB_TOKEN,GITHUB_TOKEN'
           SECRET_GH_AW_GITHUB_MCP_SERVER_TOKEN: ${{ secrets.GH_AW_GITHUB_MCP_SERVER_TOKEN }}
           SECRET_GH_AW_GITHUB_TOKEN: ${{ secrets.GH_AW_GITHUB_TOKEN }}
           SECRET_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -1445,8 +1438,8 @@ jobs:
     if: >
       always() && (needs.agent.result != 'skipped' || needs.activation.result == 'failure' || needs.activation.outputs.lockdown_check_failed == 'true' ||
       needs.activation.outputs.oauth_token_check_failed == 'true' || needs.activation.outputs.stale_lock_file_failed == 'true' ||
-      needs.activation.outputs.secret_verification_result == 'failed' || needs.activation.outputs.daily_ai_credits_exceeded == 'true' ||
-      needs.activation.outputs.daily_ai_credits_guardrail_status == 'structural_error' || needs.activation.outputs.daily_ai_credits_guardrail_status == 'transient_error')
+      needs.activation.outputs.daily_ai_credits_exceeded == 'true' || needs.activation.outputs.daily_ai_credits_guardrail_status == 'structural_error' ||
+      needs.activation.outputs.daily_ai_credits_guardrail_status == 'transient_error')
     runs-on: ubuntu-slim
     # Permissions for the conclusion job (workflow permissions default to none).
     permissions:
@@ -1607,8 +1600,6 @@ jobs:
           GH_AW_WORKFLOW_ID: "issue-triage"
           GH_AW_ACTION_FAILURE_ISSUE_EXPIRES_HOURS: "0"
           GH_AW_ENGINE_ID: "copilot"
-          GH_AW_SECRET_VERIFICATION_RESULT: ${{ needs.activation.outputs.secret_verification_result }}
-          GH_AW_ENGINE_SECRET_FAILURE_MESSAGE: "**Alternative**: If your organization has a Copilot subscription, you can avoid the need for a personal access token by adding a top-level `permissions` block to your workflow file. This enables Copilot inference through the org using the built-in GitHub Actions token.\n\n```yaml\npermissions:\n  copilot-requests: write\n```\n\nSee: https://github.github.com/gh-aw/reference/engines/#github-copilot-default"
           GH_AW_CHECKOUT_PR_SUCCESS: ${{ needs.agent.outputs.checkout_pr_success }}
           GH_AW_CHECKOUT_PR_INVALIDATED: ${{ needs.agent.outputs.checkout_pr_invalidated }}
           GH_AW_AI_CREDITS_RATE_LIMIT_ERROR: ${{ needs.agent.outputs.ai_credits_rate_limit_error || 'false' }}
@@ -1789,6 +1780,7 @@ jobs:
     # Permissions for the detection job (workflow permissions default to none).
     permissions:
       contents: read
+      copilot-requests: write # Authenticate requests to the Copilot engine.
     timeout-minutes: 10
     env:
       GH_AW_RUNTIME_FEATURES: ${{ vars.GH_AW_RUNTIME_FEATURES }}
@@ -1937,7 +1929,7 @@ jobs:
           AWF_REFLECT_ENABLED: 1
           COPILOT_AGENT_RUNNER_TYPE: STANDALONE
           COPILOT_DUMMY_BYOK: dummy-byok-key-for-offline-mode
-          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          COPILOT_GITHUB_TOKEN: ${{ github.token }}
           COPILOT_MODEL: ${{ vars.GH_AW_MODEL_DETECTION_COPILOT || vars.GH_AW_DEFAULT_MODEL_COPILOT || 'detection' }}
           GH_AW_HARNESS_MAX_RETRIES: 0
           GH_AW_LLM_PROVIDER: github
@@ -1962,6 +1954,7 @@ jobs:
           GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
           GIT_COMMITTER_NAME: github-actions[bot]
           RUNNER_TEMP: ${{ runner.temp }}
+          S2STOKENS: true
           TRACEPARENT: ${{ env.GITHUB_AW_OTEL_TRACE_ID != '' && env.GITHUB_AW_OTEL_PARENT_SPAN_ID != '' && format('00-{0}-{1}-01', env.GITHUB_AW_OTEL_TRACE_ID, env.GITHUB_AW_OTEL_PARENT_SPAN_ID) || '' }}
           WORKFLOW_NAME: "Issue triage"
           WORKFLOW_DESCRIPTION: "Classify new issues and suggest a clear implementation scope for Contoso."
@@ -2039,8 +2032,7 @@ jobs:
         if: always() && steps.detection_guard.outputs.run_detection == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          GH_AW_SECRET_NAMES: 'COPILOT_GITHUB_TOKEN,GH_AW_DEFAULT_OTLP_ENDPOINT,GH_AW_DEFAULT_OTLP_HEADERS'
-          SECRET_COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          GH_AW_SECRET_NAMES: 'GH_AW_DEFAULT_OTLP_ENDPOINT,GH_AW_DEFAULT_OTLP_HEADERS'
           SECRET_GH_AW_DEFAULT_OTLP_ENDPOINT: ${{ secrets.GH_AW_DEFAULT_OTLP_ENDPOINT }}
           SECRET_GH_AW_DEFAULT_OTLP_HEADERS: ${{ secrets.GH_AW_DEFAULT_OTLP_HEADERS }}
         with:
@@ -2076,8 +2068,7 @@ jobs:
         if: always() && steps.detection_guard.outputs.run_detection == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          GH_AW_SECRET_NAMES: 'COPILOT_GITHUB_TOKEN,GH_AW_DEFAULT_OTLP_ENDPOINT,GH_AW_DEFAULT_OTLP_HEADERS'
-          SECRET_COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+          GH_AW_SECRET_NAMES: 'GH_AW_DEFAULT_OTLP_ENDPOINT,GH_AW_DEFAULT_OTLP_HEADERS'
           SECRET_GH_AW_DEFAULT_OTLP_ENDPOINT: ${{ secrets.GH_AW_DEFAULT_OTLP_ENDPOINT }}
           SECRET_GH_AW_DEFAULT_OTLP_HEADERS: ${{ secrets.GH_AW_DEFAULT_OTLP_HEADERS }}
         with:
