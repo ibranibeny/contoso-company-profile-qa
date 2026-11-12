@@ -14,6 +14,9 @@
   });
 
   document.getElementById('q').value = query;
-  document.getElementById('search-summary').innerHTML =
-    matches + ' result(s) for <strong>' + query + '</strong>';
+  const summary = document.getElementById('search-summary');
+  summary.textContent = matches + ' result(s) for ';
+  const strong = document.createElement('strong');
+  strong.textContent = query;
+  summary.appendChild(strong);
 })();
